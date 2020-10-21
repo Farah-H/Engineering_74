@@ -5,9 +5,11 @@
 ``` code ``` 
 
 *italic*
+
 **bold**
 
 
 ![imagename](image loc)
 
-<>
+[A link](https://google.com)
+ 
