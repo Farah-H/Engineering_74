@@ -37,14 +37,22 @@ __Can be consious or unconsious. 'The mind is an operating system' it doesn't al
 - likeability: if people like you they are going to be more wiling to help you 
 - social proof
 
+### Other Biases:
+
+![](https://www.visualcapitalist.com/wp-content/uploads/2020/02/50-cognitive-biases-2.png)
+
+- Halo effect: if you are seen as competent at something, people will precieve you to be better at other things than you actually are, your positive impression from one aspect __seeps__ into other things
+
+To exploit: don't slack, even if something is small / insignificant, put in work and demonstrate your competence, it will lead others to think you are more compentent in other, more important, areas. 
+
+
+
+- Blind spot bias: we don't believe we are biased. 
+
+To overcome: listen to feedback and question your own thoughts, where is this thought coming from? could it be the result of bias? Be humble, accept that we are human and we all have biases. 
+
 # Hats
-``` white: facts
-yellow: optimism
-black: problems (devil's advocate)
-red: feelings / intuition
-green: creativity
-blue: Six thinking habits
-```
+![](https://cdn-images-1.medium.com/max/1600/1*CHeiD719yCmqopz9tkz0Mw.jpeg)
 
 
 # Conflict
@@ -74,6 +82,22 @@ HW, do 16 personalities test. Analyse the result in terms of strengths / weaknes
 - Analytical
 
 ## Apple game
+Key Learning: 
 
-__Not everybody thinks the same way I think__
+__Not everybody thinks the same way I do.__
 
+## My Personality 
+
+__ISTJ - T (Logistician)__
+
+### Workplace positives: 
+- Reliable, hold themselves to high standards and don't have an issue delivering or with punctuality
+- Good at planning, creating structure, sorting out logistics etc. Their practicality helps lead a team to a finished prroduct. 
+- Have no issue with structure / authority, good at following instructions. 
+
+
+### Workplace negatives: 
+- Can hold others to equally high standards, which can cause conflict. Their 'No Excuses' mindset can lead to their perception as insensitive or rude. 
+- Believing responsibility to deliver is theirs alone, they can struggle to ask for help when overburdened. 
+- desire for structure / stability causes struggles with change management. 
+- can be overly sensitive to critisizm, especially if itt concerns their work. 
