@@ -91,3 +91,34 @@ __DO NOT MAKE DECISIONS BASED ON ASSUMPTIONS__
 - straw man
 - contradiction
 - compare to reality
+
+## __The Art of Persuation__:
+
+## The Three Pillars of Rhetoric
+
+1. Ethos : Appealing through authority or credibility
+2. Pathos: Appealing through emottional empathy
+3. Lagos:  Appealing through logic and reasoning
+
+## Important Skills for Debating
+
+__Do__:
+- Be prepared
+- stay calm 
+- speak clearly and confidently
+- keep your language simple
+- active listening
+
+__Don't__:
+- Falsify evidence
+- Publicly disagree with the decision
+- Attack a speaker rather than the motion (ad hominem)
+- Act aggressively / offensively
+- Interrupt others
+- Disagree with facts or obvious truths
+
+__Remember__:
+- It's okay to make mistakes
+- It's okay to disagree
+
+__**Don't raise your voice, improve your argument.**__
