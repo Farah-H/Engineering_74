@@ -57,3 +57,15 @@ Lessons:
 - use tools to keep focused e.g forrest, pomadora etc.
 - Good internet, equipment etc.
 - Be kind to yourself, this is a new way of life and it will take some time to adjust. 
+
+
+
+Profesional 
+analytical 
+determined
+imaginative
+independent 
+studious
+
+
+
