@@ -10,13 +10,14 @@
 
 - How to create a file 
 
-``` touch name_of_file
+``` touch name_of_file```
 
 - how to change dir:
 
 ``` cd dir_name ```
 - how to come our of Dir:
- ``` cd .. ``
+
+ ``` cd .. ```
 
 - Who am i? 
 

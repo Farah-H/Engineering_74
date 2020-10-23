@@ -1,6 +1,6 @@
 # Interview Preperation
 
-## START
+## STAR
 ### Benifits of using STAR:
 
 - s: situation 
@@ -19,10 +19,16 @@ They want your claims 'i am passionate/hard working etc.' to be backed up by *ev
 
 
 # What is Elevator's Pitch (TMY)
-'Tell me about yourself.'
+__'Tell me about yourself.'__ is usually the first question you will be asked in an interview. It is an opportunity to sell yourself from the get-go. 
+
 ```
 Task
 ```
-** Create an Elevator's pitch for maximum 1 min**
-
+Create an Elevator's pitch for maximum 1 min. It needs to include:
+- Introduction
+- Your background
+    - if your background is not in Tech, why the switch?
+- Key / Recent Achievements
+- Why DevOps?
+- Deliver in a professional manner / positive attitude.
  
