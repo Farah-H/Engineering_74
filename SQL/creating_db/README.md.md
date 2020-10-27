@@ -164,3 +164,13 @@ DROP <name>
 
 Deletes an entire table
 Example: DROP sample
+
+## Forms 
+
+https://www.guru99.com/database-normalization.html
+
+
+## Using SQL as a DevOps Engineer
+- Envirronments will need databases
+- you'll actively look over the database
+- you might need to develop a database, need to make data persistent. 
