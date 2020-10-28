@@ -6,9 +6,9 @@
 SELECT column1, column2 FROM table_name WHERE condition ORDER BY ASC / DESC;
 ```
 
-### Select processing sequence
+### SELECT processing sequence
 1. SELECT
-2. DISTINCT or COUNT()
+2. DISTINCT() or COUNT()
 3. FROM
 4. WHERE
 5. GROUP BY
@@ -66,8 +66,6 @@ SELECT * FROM table_name WHERE column IS NULL;
 -- You can carry out operators in SQL
 SELECT column_with_numbers + another_column_with_numbers AS 'new name' FROM table_name;
 
-
-
 -- Example of Ordering by a newly created column. 
 SELECT  TOP 2
         OrderID, 
@@ -75,7 +73,16 @@ SELECT  TOP 2
 FROM [Order Details]
 ORDER BY 'Net Total' DESC;
 
+-- The GROUP BY statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns. An Example:
+SELECT AVG(number_of orders)
+FROM orders_table
+GROUP BY customer_id; -- would give table containing customer ids , average number of orders for each customer
 
+-- WHERE doesn't work on aggregate functions, so we can use HAVING, HAVING doesn't take alias inputs, though. 
+SELECT aggregate(column_name)
+FROM table_name
+GROUP BY column2_name
+HAVING condition;
 ```
 
 ## Alter Syntax Structure
@@ -126,13 +133,61 @@ FROM Products
 WHERE CHARINDEX( '''', ProductName) != 0;
 ```
 
+## Date Functions
+```sql
+SELECT GETDATE() -- returns current date and time
 
+SELECT SYSDATETIME() -- returns date and time of computer being used
+
+DATEADD(DAY|MONTH|YEAR, n, date) -- add n D|M|Y to the date 
+
+DATEDIFF(DAY|MONTH|YEAR, date1,date2) -- difference in D|m|Y between date1 and date2
+
+SELECT YEAR|MONTH|DAY(date) -- extract D|M|Y from date
+
+-- Example of using DATE functions to find employee age:
+SELECT FirstName + ' ' + LastName AS 'Name',
+        DATEDIFF(YEAR, BirthDate, GETDATE()) AS 'Age'
+FROM Employees;
+```
+
+## CASE 
+
+```sql
+-- These are analogous to 'if statements'
+SELECT CASE
+WHEN condition -- e.g DATEDIFF(...) < 10
+THEN do_something -- e.g 'On time'
+ELSE do_something_else -- e.g 'Overdue' 
+-- you can have more WHENs, but must end with an ELSE
+-- Analogous to 'elif' in python
+END; 
+
+-- Example of CASE usage:
+SELECT FirstName + ' ' + LastName AS 'Name',
+        DATEDIFF(YEAR, BirthDate, GETDATE()) AS 'Age',
+        CASE    WHEN DATEDIFF(YEAR, BirthDate, GETDATE()) >= 65 THEN 'Retired'
+                WHEN DATEDIFF(YEAR, BirthDate, GETDATE()) < 60 THEN 'More than 5 years to go'
+                ELSE 'Retirement Due'
+                END
+        AS 'Retirement Status'
+FROM Employees;
+``` 
+
+## Aggregates
+```sql
+SELECT SUM(column) -- returns sum
+SELECT AVG(column) -- returns mean
+SELECT MIN(column) -- returns minimum
+SELECT MAX(column) -- return maximum
+SELECT COUNT(column) -- returns number of entries
+```
 
 
 ## Joins: 
 [Types of Joins](https://www.w3schools.com/sql/sql_join.asp)
 
-### Inne Join Syntax:
+### Inner Join Syntax:
 
 ```sql
 SELECT table_name.column_name,
